@@ -1,6 +1,6 @@
 {
   "name": "neuq",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "auto generator",
   "main": "index.js",
   "scripts": {
