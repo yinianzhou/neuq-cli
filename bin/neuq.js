@@ -7,7 +7,8 @@ const create = require('../lib/create');
 program.version(require('../package').version, '-v, --version').usage('<command> [options]');
 
 program
-  .command('neuq c')
+  .command('create')
+  .alias('c')
   .description('create what you want to create')
   .action(() => {
     create();
